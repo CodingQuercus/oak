@@ -29,7 +29,7 @@ export default function About() {
             </p>
           </div>
           <div className={styles.imageContainer}>
-            <img src="./about-image.png" className={styles.image} alt='Image of Åke Flatholm'></img>
+            <img src="./about-image.png" className={styles.image} alt='Picture of Åke'></img>
           </div>
         </div>
         <div className={styles.buttonContainer}>
