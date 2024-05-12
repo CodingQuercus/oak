@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Åke Flatholm | Portfolio",
-  description: "Information about me, my most recent works and how I can be contacted",
+  description: "This portfolio provides details about myself, showcasing my latest projects and offering ways to get in touch."
 };
 
 export default function RootLayout({ children }) {
