@@ -22,7 +22,7 @@ const Footer = () => {
                     </Link>
                 </div>
                 <div className={styles.design}>
-                    Designed and developed by <strong>Åke Flatholm</strong> @ 2024.
+                    Developed by <strong>Åke Flatholm</strong> @ 2024.
                 </div>
             </div>
         </footer>

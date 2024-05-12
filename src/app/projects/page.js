@@ -39,7 +39,7 @@ export default function Projects() {
                 desc1="A redesign of a website, with the goal of improving the user experience and functionality."
                 desc2="Design work and UX"
                 desc3="Developed using React JS."
-                imageUrl=""
+                imageUrl="./website.png"
                 projectLink="/project/"
             />
         </div>
