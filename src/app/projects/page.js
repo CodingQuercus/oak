@@ -5,7 +5,6 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 
 import Project from './project/Project';
-import Project2 from './project/Project2';
 
 export default function Projects() {
     return (
@@ -22,7 +21,7 @@ export default function Projects() {
                 desc2="Full-stack project."
                 desc3="Developed using React JS, C# and ASP.net core."
                 imageUrl="./fika.png"
-                projectLink="/projects/fikaspelet"
+                projectLink=""
             />
             <Project
                 year="2023"
@@ -31,7 +30,7 @@ export default function Projects() {
                 desc2="Prototype and Design-work"
                 desc3="Prototype developed in Figma."
                 imageUrl="./recharge.png"
-                projectLink="/projects/recharge"
+                projectLink=""
             />
             <Project
                 year="2022"
@@ -40,7 +39,7 @@ export default function Projects() {
                 desc2="Design work and UX"
                 desc3="Developed using React JS."
                 imageUrl="./website.png"
-                projectLink="/project/"
+                projectLink=""
             />
         </div>
         <Footer></Footer>

@@ -5,9 +5,9 @@
   width: 100vw;
   padding-left: 120px;
   padding-right: 120px;
-  background-color: #070707;
-  opacity: 1;
-  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #070707 9px ), repeating-linear-gradient( #16161655, #161616 );  align-items: center;
+background-color: #070707;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #070707 9px ), repeating-linear-gradient( #16161655, #161616 );  align-items: center;
   justify-content: center;
   margin-top: auto;
   margin-bottom: auto;
