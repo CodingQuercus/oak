@@ -1,7 +1,7 @@
 .aboutContainer {
     display: flex;
     flex-direction: column;
-    background-color: #070707;
+    background-color: #171717;
     padding-top: 45px;
     padding-left: 120px;
     padding-right: 120px;
@@ -30,7 +30,7 @@
 
 .intro {
     color: #E4E4E4;
-    font-size: 30px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -38,7 +38,7 @@
 
 .info {
     color: #E4E4E4;
-    font-size: 25px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -46,7 +46,7 @@
 
 .info2 {
     color: #E4E4E4;
-    font-size: 25px;
+    font-size:22px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

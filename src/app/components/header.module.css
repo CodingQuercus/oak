@@ -16,7 +16,16 @@
 }
 
 .back {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
     margin-right: auto;
+    border-radius: 10px;
+}
+
+.back:hover {
+    background-color: #42840D;
 }
 
 .links {
@@ -29,7 +38,7 @@
 .link {
     color: #9F9F9F;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
