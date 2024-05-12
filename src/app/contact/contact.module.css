@@ -18,11 +18,14 @@
     padding-bottom: 20px;
 }
 
-.formContainer {
+.formWrapper {
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 18px 40px 40px 18px;
+}
+
+.formContainer {
+    width: 60%;
+    padding: 20px;
     border-radius: 20px;
     border: 1px solid #737373;
     background: linear-gradient(180deg, #070707 0%, #252525 100%);
@@ -31,7 +34,6 @@
 .form {
     display: flex;
     flex-direction: column;
-    flex-grow: 0.8;
 }
 
 .label {
@@ -76,6 +78,7 @@
 
     .formContainer {
         padding: 18px;
+        width: 60%; 
     }
 
     .label {
@@ -109,6 +112,7 @@
 
     .formContainer {
         padding: 18px;
+        width: 70%;
     }
 
     .label {
