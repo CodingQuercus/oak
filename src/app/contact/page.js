@@ -32,8 +32,8 @@ export default function Contact() {
 
     return (
         <>
+            <Header></Header>
             <div className={styles.contactContainer}>
-                <Header></Header>
                 <h2 className={styles.title}>Contact</h2>
                 <div className={styles.formContainer}>
                     <form className={styles.form} onSubmit={handleSubmit}>
