@@ -9,8 +9,8 @@ export default function ReCharge() {
 
     return (
         <>
+        <Header></Header>
         <div className={styles.container}>
-            <Header></Header>
             <Link href="/projects" className={styles.link}>
                 Back to projects
             </Link>

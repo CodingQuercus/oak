@@ -4,6 +4,9 @@ import styles from "./contact.module.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
 
+import { motion } from 'framer-motion';
+
+
 export default function Contact() {
     const [formData, setFormData] = useState({
         name: '',
@@ -35,7 +38,11 @@ export default function Contact() {
             <div className={styles.contactContainer}>
                 <Header></Header>
                 <h2 className={styles.title}>Contact</h2>
-
+                <motion.div
+                    initial={{ opacity: 0, y: 50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.75, duration: 0.5 }}
+                >
                 <div className={styles.formContainer}>
                     <form className={styles.form} onSubmit={handleSubmit}>
                         <label htmlFor="name" className={styles.label}>Name:</label>
@@ -84,6 +91,7 @@ export default function Contact() {
                         </div>
                     </form>
                 </div>
+                </motion.div>
             </div>
             <Footer></Footer>
         </>
