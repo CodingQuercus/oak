@@ -22,14 +22,14 @@ export default function About() {
             </p>
             <p className={styles.info2}>
               <br></br>
-              Over the past three years, I've been studying to graduate with a Master of Science in Interaction and Design.
+              Over the past three years, I&#39;ve been studying to graduate with a Master of Science in Interaction and Design.
               <br></br>
               <br></br>
-              Along the way, I've completed various courses ranging from back-end to front-end development. However, I've grown a passion for working with the aspects of UI / UX.
+              Along the way, I&#39;ve completed various courses ranging from back-end to front-end development. However, I&#39;ve grown a passion for working with the aspects of UI / UX.
             </p>
           </div>
           <div className={styles.imageContainer}>
-            <img src="./about-image.png" className={styles.image}></img>
+            <img src="./about-image.png" className={styles.image} alt='Image of Åke Flatholm'></img>
           </div>
         </div>
         <div className={styles.buttonContainer}>
