@@ -76,6 +76,7 @@ export default function Contact() {
                             onChange={handleChange}
                             className={styles.input}
                             rows="4"
+                            style={{ maxHeight: '100%', resize: 'none' }}
                             required
                         ></textarea>
                         <div className={styles.buttonContainer}>
