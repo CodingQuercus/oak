@@ -18,7 +18,7 @@ const Footer = () => {
                         LinkedIn
                     </Link>
                     <Link href="/contact" className={styles.link}>
-                        Contact me
+                        Contact
                     </Link>
                 </div>
                 <div className={styles.design}>

@@ -22,10 +22,10 @@ export default function About() {
             </p>
             <p className={styles.info2}>
               <br></br>
-              During my last three years I have been studying at Umeå University to graduate with a master of science in Interaction and Design.
+              Over the past three years, I've been studying to graduate with a Master of Science in Interaction and Design.
               <br></br>
               <br></br>
-              I have stumbled across a handful of courses from back-end to front-end development. However, I have grown a passion for working with the aspects of UI/UX.
+              Along the way, I've completed various courses ranging from back-end to front-end development. However, I've grown a passion for working with the aspects of UI / UX.
             </p>
           </div>
           <div className={styles.imageContainer}>
