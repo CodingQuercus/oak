@@ -1,0 +1,95 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #070707;
+    height: 100vh;
+    padding-top: 45px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 45px;
+}
+
+.title {
+    padding-top: 50px;
+    color: #E4E4E4;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding-top: 82px;
+}
+
+.text {
+    flex: 1;
+}
+
+.intro {
+    color: #E4E4E4;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info {
+    color: #E4E4E4;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info2 {
+    color: #E4E4E4;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.imageContainer {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buttonText {
+    color: #e3e3e3;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.button {
+    display: flex;
+    height: 60px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: #252525;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #4F0D84
+}

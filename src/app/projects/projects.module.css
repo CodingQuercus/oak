@@ -1,0 +1,27 @@
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    padding-left: 120px;
+    padding-right: 120px;
+    overflow: scroll;
+    background-color: #070707;
+}
+
+.title {
+    padding-top: 50px;
+    color: #E4E4E4;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info {
+    padding-top: 16px;
+    color: #e4e4e4;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

@@ -1,0 +1,19 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 45px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: #070707;
+    overflow: scroll;
+}
+
+.title {
+    padding-top: 50px;
+    color: #E4E4E4;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
