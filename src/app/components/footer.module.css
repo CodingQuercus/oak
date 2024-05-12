@@ -41,4 +41,31 @@
 
 .link:hover {
     text-decoration: underline;
-  }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+  @media (max-width: 750px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .linkContainer {
+        flex-direction: column;
+    }
+
+    .link {
+        font-size: 14px; /* Adjusted font size for mobile */
+        margin: 0 10px 0 0; /* Adjusted margin for mobile */
+    }
+
+    .design {
+        padding-top: 20px;
+    }
+}

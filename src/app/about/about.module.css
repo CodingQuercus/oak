@@ -54,9 +54,9 @@
 }
 
 .imageContainer {
-    flex: 1; 
+    flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -92,4 +92,94 @@
 
 .button:hover {
     background-color: #4F0D84
+}
+
+@media (max-width: 1024px) {
+    .aboutContainer {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .title {
+        font-size: 28px;
+        padding-top: 40px; 
+    }
+
+    .content {
+        padding-top: 62px;
+    }
+
+    .intro {
+        font-size: 36px;
+    }
+
+    .info {
+        font-size: 22px;
+    }
+
+    .info2 {
+        font-size: 20px;
+    }
+
+    .image {
+        height: 350px; 
+        width: 350px;
+    }
+
+    .buttonText {
+        font-size: 18px;
+    }
+
+    .button {
+        height: 50px;
+        width: 180px;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .aboutContainer {
+        padding: 45px 20px;
+        height: max-content;
+    }
+
+    .title {
+        font-size: 24px;
+        padding-top: 30px;
+    }
+
+    .content {
+        flex-direction: column;
+        padding-top: 52px;
+    }
+
+    .intro {
+        font-size: 32px;
+    }
+
+    .info {
+        font-size: 20px;
+    }
+
+    .info2 {
+        font-size: 18px;
+    }
+
+    .imageContainer {
+        justify-content: center;
+    }
+
+    .image {
+        height: 300px;
+        width: 300px;
+    }
+
+    .buttonText {
+        font-size: 18px;
+    }
+
+    .button {
+        height: 50px;
+        width: 180px;
+    }
 }

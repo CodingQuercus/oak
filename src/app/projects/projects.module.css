@@ -25,3 +25,37 @@
     font-weight: 500;
     line-height: normal;
 }
+
+@media (max-width: 1024px) {
+    .projectContainer {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .title {
+        font-size: 28px;
+        padding-top: 40px;
+    }
+
+    .info {
+        font-size: 22px;
+        padding-top: 12px;
+    }
+}
+
+@media (max-width: 750px) {
+    .projectContainer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .title {
+        font-size: 24px;
+        padding-top: 40px;
+    }
+
+    .info {
+        font-size: 20px;
+        padding-top: 12px;
+    }
+}

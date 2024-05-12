@@ -64,3 +64,69 @@
 .button:hover {
     background-color: #4F0D84
 }
+
+@media (max-width: 1024px) {
+    .contactContainer {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .title {
+        font-size: 28px;
+        padding-top: 40px;
+    }
+
+    .formContainer {
+        padding: 18px;
+    }
+
+    .label {
+        padding-top: 8px;
+    }
+
+    .input {
+        padding: 8px;
+    }
+
+    .buttonContainer {
+        padding-top: 16px;
+    }
+
+    .button {
+        height: 50px;
+        width: 180px;
+    }
+}
+
+@media (max-width: 750px) {
+    .contactContainer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .title {
+        font-size: 24px;
+        padding-top: 40px;
+    }
+
+    .formContainer {
+        padding: 18px;
+    }
+
+    .label {
+        padding-top: 8px;
+    }
+
+    .input {
+        padding: 8px;
+    }
+
+    .buttonContainer {
+        padding-top: 16px;
+    }
+
+    .button {
+        height: 50px;
+        width: 180px;
+    }
+}

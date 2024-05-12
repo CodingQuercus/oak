@@ -24,7 +24,7 @@ export default function Projects() {
                 imageUrl="./fika.png"
                 projectLink="/projects/fikaspelet"
             />
-            <Project2
+            <Project
                 year="2023"
                 title="ReCharge"
                 desc1="A concept application targeting owners of electrical vehicles with the goal of making their experience better."
