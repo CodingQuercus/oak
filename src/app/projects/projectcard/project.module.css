@@ -9,6 +9,7 @@
     border-radius: 30px;
     border: 1px solid #737373;
     background: linear-gradient(180deg, #070707 0%, #252525 100%);
+    position: relative;
 }
 
 .year {
@@ -38,13 +39,15 @@
     line-height: normal;
 }
 
+.linkContainer {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
 .link {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: auto;
     color: #e4e4e4;
-    text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -78,10 +81,11 @@
 
     .info {
         font-size: 18px;
+        padding-bottom: 25px;
     }
 
     .link {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .imageContainer {
@@ -109,7 +113,7 @@
     }
 
     .link {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .imageContainer {

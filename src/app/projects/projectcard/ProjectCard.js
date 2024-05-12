@@ -19,9 +19,11 @@ const Project = ({ year, title, desc1, desc2, desc3, imageUrl, projectLink }) =>
                     {desc3}
                 </p>
 
-                <Link href={projectLink} className={styles.link}>
-                    Read more &#62;
-                </Link>
+                <div className={styles.linkContainer}>
+                    <Link href={projectLink} className={styles.link}>
+                        Read more &#62;
+                    </Link>
+                </div>
             </div>
             <div className={styles.imageContainer}>
                 <img src={imageUrl} className={styles.image} alt={title} />
