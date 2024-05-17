@@ -1,10 +1,8 @@
 'use client'
 import React, { useState } from 'react';
 import styles from "./contact.module.css";
-import Header from "../components/header";
-import Footer from "../components/footer";
 
-export default function Contact() {
+const Contact = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -31,9 +29,7 @@ export default function Contact() {
     };
 
     return (
-        <>
-            <Header></Header>
-            <div className={styles.contactContainer}>
+            <section id='contact' className={styles.contactContainer}>
                 <h2 className={styles.title}>Contact</h2>
                 <div className={styles.formWrapper}>
                     <div className={styles.formContainer}>
@@ -85,8 +81,8 @@ export default function Contact() {
                         </form>
                     </div>
                 </div>
-            </div>
-            <Footer></Footer>
-        </>
+            </section>
     );
 };
+
+export default Contact;

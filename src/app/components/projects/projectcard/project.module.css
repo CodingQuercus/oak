@@ -5,7 +5,7 @@
 
 .card {
     flex: 1;
-    padding: 18px 40px 40px 18px;
+    padding: 18px 40px 20px 18px;
     border-radius: 30px;
     border: 1px solid #737373;
     background: linear-gradient(180deg, #070707 0%, #252525 100%);
@@ -26,9 +26,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    line-height: 36px;
 }
 
 .info {
@@ -36,7 +34,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 28px;
 }
 
 .linkContainer {
