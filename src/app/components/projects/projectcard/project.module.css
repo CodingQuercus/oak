@@ -38,17 +38,25 @@
 }
 
 .linkContainer {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
 }
 
 .link {
     color: #e4e4e4;
     font-size: 14px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #0d00a4;
+    cursor: pointer;
+}
+
+.link:hover {
+    background-color: #5f00a4;
 }
 
 .imageContainer {

@@ -37,6 +37,21 @@ const About = () => {
                     </svg>
                 </button>
             </div>
+            <h2 className={styles.title}>Toolbox</h2>
+            <div className={styles.toolboxContainer}>
+                <h3 className={styles.toolboxTitle}>Design</h3>
+                <div className={styles.toolbox}>
+                    <img className={styles.toolboxImage}></img>
+                    <img className={styles.toolboxImage}></img>
+                    <img className={styles.toolboxImage}></img>
+                </div>
+                <h3 className={styles.toolboxTitle}>Technical</h3>
+                <div className={styles.toolbox}>
+                    <img className={styles.toolboxImage}></img>
+                    <img className={styles.toolboxImage}></img>
+                    <img className={styles.toolboxImage}></img>
+                </div>
+            </div>
         </section>
     );
 }

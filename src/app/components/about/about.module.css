@@ -74,7 +74,7 @@
 }
 
 .buttonText {
-    color: #e3e3e3;
+    color: #e4e4e4;
     font-size: 20px;
     padding-bottom: 10px;
 }
@@ -82,16 +82,32 @@
 .cvButton {
     display: flex;
     height: 60px;
-    width: 200px;
+    width: 180px;
     border-radius: 15px;
     background-color: #0d00a4;
     border: none;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
-.button:hover {
+.cvButton:hover {
     background-color: #5f00a4
+}
+
+.toolboxContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.toolboxTitle {
+    padding-top: 20px;
+    color: #E4E4E4;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 @media (max-width: 1024px) {
@@ -110,7 +126,7 @@
     }
 
     .intro {
-        font-size: 36px;
+        font-size: 24px;
     }
 
     .info {
@@ -154,7 +170,7 @@
     }
 
     .intro {
-        font-size: 32px;
+        font-size: 22px;
     }
 
     .info {

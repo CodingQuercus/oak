@@ -20,7 +20,6 @@ const Hero = () => {
                     >
                         Åke Flatholm
                     </motion.h1>
-
                     <motion.p
                         className={styles.text}
                         initial={{ opacity: 0 }}

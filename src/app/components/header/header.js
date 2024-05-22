@@ -5,11 +5,9 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <div className={styles.title}>
-                <li>
-                    <a href="#hero">
-                        ÅF
-                    </a>
-                </li>
+                <a href="#hero">
+                    ÅF
+                </a>
             </div>
             <ul className={styles.links}>
                 <li>

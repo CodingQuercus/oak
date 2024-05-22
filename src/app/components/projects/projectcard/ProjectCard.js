@@ -21,7 +21,7 @@ const Project = ({ year, title, desc1, desc2, desc3, imageUrl, projectLink }) =>
 
                 <div className={styles.linkContainer}>
                     <Link href={projectLink} className={styles.link}>
-                        Read more &#62;
+                        Read more
                     </Link>
                 </div>
             </div>
