@@ -15,11 +15,11 @@ const About = () => {
                         Hello, Im Åke.
                     </h3>
                     <p className={styles.info}>
-                        A Interaction and Design student at Umeå University.
+                        A Interaction Technology and Design student at Umeå University.
                     </p>
                     <p className={styles.info2}>
                         <br></br>
-                        Over the past three years, I&#39;ve been studying to graduate with a Master of Science in Interaction and Design.
+                        Over the past three years, I&#39;ve been studying to graduate with a Master of Science in Interaction Technology and Design.
                         <br></br>
                         <br></br>
                         Along the way, I&#39;ve gotten experience working with both back-end and front-end development. However, I&#39;ve grown a passion for working with the aspects of UI / UX.

@@ -26,7 +26,7 @@ const Hero = () => {
                         animate={{ opacity: 1 }}
                         transition={{ delay: 2, duration: 1 }}
                     >
-                        Interaction and Design student at Umeå University
+                        Interaction Technology and Design student at Umeå University
                     </motion.p>
                 </motion.div>
             </div>
