@@ -12,7 +12,7 @@ const About = () => {
             <div className={styles.content}>
                 <div className={styles.text}>
                     <h3 className={styles.intro}>
-                        Hello, I'm Åke.
+                        Hello, I&#39;m Åke.
                     </h3>
                     <p className={styles.info}>
                         An Interaction Technology and Design student at Umeå University.
