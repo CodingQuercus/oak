@@ -25,7 +25,7 @@
 }
 
 .formContainer {
-    width: 60%;
+    width: 100%;
     padding: 20px;
     border-radius: 20px;
     border: 1px solid #737373;
@@ -57,8 +57,8 @@
     height: 60px;
     width: 180px;
     border-radius: 15px;
-    background-color: #0d00a4;
-    border: none;
+    background-color: #171717;
+    border: #737373 1px solid;
     align-items: center;
     justify-content: center;
     font-size: 16px;
@@ -66,7 +66,8 @@
 }
 
 .button:hover {
-    background-color: #5f00a4
+    background-color: #0d00a4;
+    border: #0d00a4 1px solid;
 }
 
 @media (max-width: 1024px) {
@@ -82,7 +83,7 @@
 
     .formContainer {
         padding: 18px;
-        width: 60%; 
+        width: 100%; 
     }
 
     .label {
@@ -116,7 +117,7 @@
 
     .formContainer {
         padding: 18px;
-        width: 70%;
+        width: 100%;
     }
 
     .form {

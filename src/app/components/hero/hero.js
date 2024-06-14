@@ -10,13 +10,13 @@ const Hero = () => {
                     className={styles.card}
                     initial={{ opacity: 0}}
                     animate={{ opacity: 1}}
-                    transition={{ duration: 1}}
+                    transition={{ duration: 0.5}}
                 >
                     <motion.h1
                         className={styles.title}
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        transition={{ delay: 1, duration: 1 }}
+                        transition={{ delay: 0.5, duration: 0.5 }}
                     >
                         Åke Flatholm
                     </motion.h1>
@@ -24,7 +24,7 @@ const Hero = () => {
                         className={styles.text}
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        transition={{ delay: 2, duration: 1 }}
+                        transition={{ delay: 1, duration: 0.5 }}
                     >
                         Interaction Technology and Design student at Umeå University
                     </motion.p>

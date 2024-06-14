@@ -19,14 +19,15 @@ const Project = ({ year, title, desc1, desc2, desc3, imageUrl, projectLink }) =>
                     {desc3}
                 </p>
 
+                <div className={styles.imageContainer}>
+                    <img src={imageUrl} className={styles.image} alt={title} />
+                </div>
+
                 <div className={styles.linkContainer}>
                     <Link href={projectLink} className={styles.link}>
                         Read more
                     </Link>
                 </div>
-            </div>
-            <div className={styles.imageContainer}>
-                <img src={imageUrl} className={styles.image} alt={title} />
             </div>
         </div>
     );

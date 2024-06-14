@@ -20,7 +20,7 @@
     padding: 40px;
     border: 1px solid #E4E4E4;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.10) 100%);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
   }
 
   .title {

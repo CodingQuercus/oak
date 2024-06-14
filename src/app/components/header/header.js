@@ -5,23 +5,23 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <div className={styles.title}>
-                <a href="#hero">
+                <a href="./#hero">
                     ÅF
                 </a>
             </div>
             <ul className={styles.links}>
                 <li>
-                    <a href="#about" className={styles.link}>
+                    <a href="./#about" className={styles.link}>
                         About me
                     </a>
                 </li>
                 <li>
-                    <a href="#projects" className={styles.link}>
+                    <a href="./#projects" className={styles.link}>
                         Projects
                     </a>
                 </li>
                 <li>
-                    <a href="#contact" className={styles.link}>
+                    <a href="./#contact" className={styles.link}>
                         Contact
                     </a>
                 </li>
