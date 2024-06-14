@@ -193,6 +193,10 @@
         width: 300px;
     }
 
+    .buttonContainer {
+        align-items: center;
+    }
+
     .buttonText {
         font-size: 18px;
     }
